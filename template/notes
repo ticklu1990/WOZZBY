@@ -1,0 +1,36 @@
+Converting to React Application....
+
+npx create-react-app frontend.
+
+remove all li's.
+
+convert each product to JSX.
+
+getting data from data.js
+
+default has a subobject products.
+
+[Product Details]
+
+Inside [front-end] folder:
+
+npm install react-router-dom 
+
+<Router path="/products/:id" component>
+<Router path="/" exact={true} component={HomeScreen} />
+
+[1:12:52]
+
+Linking product Items:
+Product Image Linkable.
+
+In the product details I have access to id of products.
+
+Press tab to automatically data.
+
+[1:16:38]
+https://discord.com/channels/622033978047725582/633586121712074762
+
+https://github.com/argho1990/WOZZBY
+
+Bugs fixed in ProductScreen.
