@@ -1,0 +1,45 @@
+export default {
+  products: [
+    {
+      _id: "1",
+      name: "Slim Fit",
+      category: "Shirts",
+      image: "/images/d1.jpg",
+      price: 60,
+      brand: "Nike",
+      rating: 2.5,
+      numReviews: 10,
+    },
+
+    {
+      _id: "2",
+      name: "Fit Shirt",
+      category: "Shirts",
+      image: "/images/d2.jpg",
+      price: 60,
+      brand: "Nike",
+      rating: 3.5,
+      numReviews: 10,
+    },
+    {
+      _id: "3",
+      name: "Jeans",
+      category: "Pants",
+      image: "/images/d3.jpg",
+      price: 60,
+      brand: "Nike",
+      rating: 4.5,
+      numReviews: 10,
+    },
+    {
+      _id: "4",
+      name: "Cargo",
+      category: "Pants",
+      image: "/images/d4.jpg",
+      price: 70,
+      brand: "Nike",
+      rating: 5.5,
+      numReviews: 10,
+    },
+  ],
+};

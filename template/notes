@@ -14,7 +14,7 @@ default has a subobject products.
 
 Inside [front-end] folder:
 
-npm install react-router-dom 
+npm install react-router-dom. 
 
 <Router path="/products/:id" component>
 <Router path="/" exact={true} component={HomeScreen} />
@@ -34,3 +34,32 @@ https://discord.com/channels/622033978047725582/633586121712074762
 https://github.com/argho1990/WOZZBY
 
 Bugs fixed in ProductScreen.
+
+
+[create node server]
+
+serves list of products to the client.
+
+copy data from src and paste it in backend.
+
+running this [command].
+app.listen(5000,()=>{console.log("Server started at http://localhost:5000")})
+
+After running node backend/server.js
+
+Syntax Error:[Uncaught Reference Error]:
+Code is written in ES6 version but node only understands ES5 version.
+To convert from ES6 to ES5 we are going to use Babel
+
+install packages and apply some settings:
+npm install @babel/cli @babel/core @babel/node @babel/preset-env nodemon --save-dev
+
+nodemon - automatically [start] and [stop] our server whenever we change our [code].
+
+create a file in wozzby .babelrc
+
+correctio done at server.js
+
+
+
+
