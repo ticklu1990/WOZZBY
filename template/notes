@@ -54,11 +54,33 @@ To convert from ES6 to ES5 we are going to use Babel
 install packages and apply some settings:
 npm install @babel/cli @babel/core @babel/node @babel/preset-env nodemon --save-dev
 
-nodemon - automatically [start] and [stop] our server whenever we change our [code].
+[nodemon] - automatically [start] and [stop] our server whenever we change our [code].
 
 create a file in wozzby .babelrc
 
-correctio done at server.js
+correction done at server.js
+
+
+[How to push code in github]
+
+1.git add .
+2.git git commit -m 'your message'
+3.git push -u origin master
+
+[Fetch Server Data]
+to get access to the server.
+set a proxy in the [package.json] inside front-end folder.
+
+go to HomeScreen and set React Hooks:
+
+[Define a hook]:
+useState() has empty value.
+fetch data from Server I use useEffect.
+Empty Array for component [Demount].
+When all of your stuff render rendered.
+fetch data from server,use Axios library.(fetch data from webAPI):
+use unique for a map.[Each child in a list should have a unique "key" prop.]
+
 
 
 

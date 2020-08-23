@@ -3,6 +3,7 @@ import data from "./data";
 
 const app = express();
 
+//end point,path of this endpoint:
 app.get("/api/products", (req, res) => {
   res.send(data.products);
 });
