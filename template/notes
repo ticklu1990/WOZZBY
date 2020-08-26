@@ -64,7 +64,7 @@ correction done at server.js
 [How to push code in github]
 
 1.git add .
-2.git commit -m 'your message'
+2.git commit --message "Using useSelector"
 3.git push -u origin master
 
 [Fetch Server Data]
@@ -98,9 +98,9 @@ As a first step we need to create a store.
 https://github.com/ticklu1990/wozzby
 
 git log --pretty=format:"%h - %an, %ar : %s"
+https://stackoverflow.com/questions/19987099/how-do-i-view-all-commits-for-a-specific-day
 
-
-
+2:12:34
 
 
 
