@@ -41,5 +41,15 @@ export default {
       rating: 5.5,
       numReviews: 10,
     },
+    {
+      _id: "5",
+      name: "Oxelo Skateboard",
+      category: "Skateboard",
+      image: "/images/d5.jpg",
+      price: 6000,
+      brand: "Oxelo",
+      rating: 5.5,
+      numReviews: 10,
+    },
   ],
 };

@@ -64,7 +64,7 @@ correction done at server.js
 [How to push code in github]
 
 1.git add .
-2.git git commit -m 'your message'
+2.git commit -m 'your message'
 3.git push -u origin master
 
 [Fetch Server Data]
@@ -80,6 +80,24 @@ Empty Array for component [Demount].
 When all of your stuff render rendered.
 fetch data from server,use Axios library.(fetch data from webAPI):
 use unique for a map.[Each child in a list should have a unique "key" prop.]
+
+//Implementing Add to Cart Feature:
+
+//Manage State with Redux(getting list of products from a server):
+Redux as a state manager.
+
+To use redux first of all,we create a store.IN the store we have reducer.
+And state.
+In our view like HomeScreen,at the very beginning of our HomeScreen,we need to dispatch an action,
+to list of products.[Dispatcher]
+And inside the reducer,the products will be served in the State and the state will be go into the [view] to show 
+the list of products.
+
+As a first step we need to create a store.
+
+
+
+
 
 
 
