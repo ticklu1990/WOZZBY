@@ -95,7 +95,9 @@ the list of products.
 
 As a first step we need to create a store.
 
+https://github.com/ticklu1990/wozzby
 
+git log --pretty=format:"%h - %an, %ar : %s"
 
 
 
