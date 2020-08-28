@@ -20,6 +20,7 @@ export default {
       brand: "Nike",
       rating: 3.5,
       numReviews: 10,
+      countInStock: 6,
     },
     {
       _id: "3",
@@ -30,6 +31,7 @@ export default {
       brand: "Nike",
       rating: 4.5,
       numReviews: 10,
+      countInStock: 5,
     },
     {
       _id: "4",
@@ -40,6 +42,7 @@ export default {
       brand: "Nike",
       rating: 5.5,
       numReviews: 10,
+      countInStock: 4,
     },
     {
       _id: "5",
@@ -50,6 +53,7 @@ export default {
       brand: "Oxelo",
       rating: 5.5,
       numReviews: 10,
+      countInStock: 2,
     },
   ],
 };

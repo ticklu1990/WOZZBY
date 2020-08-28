@@ -98,9 +98,11 @@ As a first step we need to create a store.
 https://github.com/ticklu1990/wozzby
 
 git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%h - %an : %s"
+git log --oneline
 https://stackoverflow.com/questions/19987099/how-do-i-view-all-commits-for-a-specific-day
 
-2:12:34
+[2:25:42]
 
 
 
